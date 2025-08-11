@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bootstrap 5 + jQuery Boilerplate</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome (icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Favicon (replace with your favicon) -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- Example Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <img src="https://www.ltts.com/themes/custom/ltts_revamp/logo.svg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-wrapper">
+        <div class="container">
+            <!-- Highlighted Text -->
+            <div class="highlighted-text">
+                <h2>Your <span class="gradient-text">AI</span> Journey Starts Here</h2>
+            </div>
+
+            <!-- form input field -->
+            <form class="search-form">
+                <div class="search-input">
+                    <input type="text" class="search-input-inner"
+                      placeholder="How can we help? Start by typing your question.">
+                    <button type="button" class="generate-btn">Generate</button>
+                </div>
+            </form>
+
+            <!-- tags -->
+
+            <div class="ltts-search-tags-block-wrapper">
+                <div class="tags-wrapper">
+                    <span>Mobility</span>
+                </div>
+
+                <div class="tags-wrapper">
+                    <span>Sustainability</span>
+                </div>
+
+                <div class="tags-wrapper">
+                    <span>Tech</span>
+                </div>
+
+                <div class="tags-wrapper">
+                    <span>AI</span>
+                </div>
+            </div>
+
+            <!-- banner block -->
+            <div class="banner-block-wrapper">
+                <div class="banner-block">
+                    <h2>Banner</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new-section">
+        <div class="container">
+            <h2>New Section</h2>
+        </div>
+    </div>
+
+    <!-- popup answer engine search result -->
+
+    <div class="popup-search-engine-wrapper">
+        <div class="popup-close-btn-wrapper">
+            <button type="button" class="btn-close popup-close-btn" aria-label="Close"></button>
+        </div>
+        <div class="popup-body-text-wrapper">
+            <div class="popup-body-heading">
+                <h5><strong>Driving Innovation in Global Mobility with LTTS</strong></h5>
+            </div>
+            <div class="popup-body-paragraph">
+                <p>At LTTS, we are driving innovation across the global mobility landscape by leveraging our
+                    demonstrated technical knowledge, unmatched engineering expertise, and world-class talent. We
+                    draw upon our extensive experiences to cross-pollinate ideas and solutions in meeting evolving
+                    market needs.​</p>
+                <p>Our engineering solutions seamlessly align performance, safety, and sustainability with your
+                    business goals, ensuring compliance with evolving regulatory and environmental standards. All
+                    this, while enabling you to deliver a digital-first experience for your customers worldwide.</p>
+            </div>
+        </div>
+        <div class="article-link-wrapper">
+            <h5><strong>Driving Innovation in Global Mobility with LTT</strong></h5>
+            <a href="#" class="know-more-btn">Learn More</a>
+        </div>
+        <div class="footnote">
+            <a href="#">Contact US</a><span>today to discover how LTTS can help you drive innovation and achieve
+                your mobility goals. Lets build the future of mobility together</span>
+        </div>
+        <div class="control-center-wrapper">
+            <div class="copy btn">
+                <span class="icon"><i class="fa-regular fa-copy"></i></span><span class="text">Copy</span>
+            </div>
+            <div class="like-share">
+                <span class="icon share"><i class="fa-solid fa-share"></i></span>
+                <span class="icon like"><i class="fa-regular fa-thumbs-up"></i></span>
+                <span class="icon dislike"><i class="fa-regular fa-thumbs-down"></i></span>
+                <span class="icon bookmark"><i class="fa-regular fa-bookmark"></i></span>
+            </div>
+        </div>
+
+        <form class="search-form">
+            <div class="search-input">
+                <input type="text" class="search-input-inner"
+                  placeholder="How can we help? Start by typing your question.">
+                <button type="submit">Generate</button>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="text-center footer">
+        <div class="container">
+            <small>&copy; <span id="year"></span> Innoraft — All rights reserved</small>
+        </div>
+    </footer>
+
+    <!-- jQuery (CDN) - load before any jQuery plugins -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap Bundle JS (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Optional: small script to show jQuery is working -->
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
