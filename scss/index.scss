@@ -267,14 +267,14 @@ body {
         z-index: -1;
     }
 
-    .search-input::placeholder {
-        color: $brand-blue;
+    .search-input-inner::placeholder {
+        color: $mobility-blue;
     }
 
     .search-input-inner {
         border: none;
         background: transparent;
-        color: $brand-blue;
+        color: $mobility-blue;
         font-size: 16px;
         outline: none;
         width: 80%;

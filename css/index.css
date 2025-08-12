@@ -220,13 +220,13 @@ body.no-scroll {
   background-color: rgba(255, 255, 255, 0.3882352941);
   z-index: -1;
 }
-.search-form .search-input::placeholder {
-  color: #112868;
+.search-form .search-input-inner::placeholder {
+  color: #084CC8;
 }
 .search-form .search-input-inner {
   border: none;
   background: transparent;
-  color: #112868;
+  color: #084CC8;
   font-size: 16px;
   outline: none;
   width: 80%;
